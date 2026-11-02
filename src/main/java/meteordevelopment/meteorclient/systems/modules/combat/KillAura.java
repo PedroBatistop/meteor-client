@@ -184,7 +184,7 @@ public class KillAura extends Module {
 
     private final Setting<Boolean> ignoreNamed = sgTargeting.add(new BoolSetting.Builder()
         .name("ignore-named")
-        .description("Whether or not to attack mobs with a name.")
+        .description("Ignore mobs with custom names, including names applied with a name tag.")
         .defaultValue(false)
         .build()
     );
