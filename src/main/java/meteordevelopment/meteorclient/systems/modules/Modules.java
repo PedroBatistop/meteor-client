@@ -508,6 +508,7 @@ public class Modules extends System<Modules> {
     private void initRender() {
         add(new BetterTab());
         add(new BetterTooltips());
+        add(new BeehiveESP());
         add(new BlockESP());
         add(new BlockSelection());
         add(new Blur());
